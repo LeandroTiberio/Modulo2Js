@@ -17,9 +17,3 @@ console.log("Valor da Divisão é : ", divisao);
 console.log("Valor da Soma, somando mais 5 ", soma + 5);
 console.log("Valor com resto da Divisão é : ", divisaoComResto);
 console.log("Vlor da Soma, subtraindo nemos 3 :", soma -3 );
-
-
-
-
-
-
