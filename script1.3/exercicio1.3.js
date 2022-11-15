@@ -1,3 +1,5 @@
+console.log("Operadores Lógicos")
+
 var caminhada = true
 var corrida = true
 

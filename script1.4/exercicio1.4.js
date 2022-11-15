@@ -1,4 +1,4 @@
-console.log("Estrutura condicional.")
+console.log("Estrutura condicional")
 
 var num = 9
 

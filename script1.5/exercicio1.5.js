@@ -4,24 +4,24 @@ console.log("Somar números da lista")
 
 var lista = [12, 6, 9, 42, 11, 102, 44, 15]
 
-var resultadoSomaListaFor 
-var resultadoSomaListaWhile 
-var resultadoSomaListaDoWhile 
-var contadorWhile 
-var contadorDoWhile 
+var resultadoSomaListaFor = 0 
+var resultadoSomaListaWhile = 0
+var resultadoSomaListaDoWhile = 0
+var contadorWhile = 0
+var contadorDoWhile = 0
 
 console.log("Lista com for")
 
 for (var i = 0; i < lista.length; i++) 
 {
-    prompt (resultadoSomaListaFor = resultadoSomaListaFor + lista[i]);
+    resultadoSomaListaFor = resultadoSomaListaFor + lista[i];
 }
 
 console.log("Lista com While")
 
 while (contadorWhile < lista.length) 
 {
-    prompt (resultadoSomaListaWhile = resultadoSomaListaWhile + lista[contadorWhile])
+    resultadoSomaListaWhile = resultadoSomaListaWhile + lista[contadorWhile]
     contadorWhile++
 }
 
@@ -29,7 +29,7 @@ console.log("Lista com do/while")
 
 do 
 {
-    prompt (resultadoSomaListaDoWhile = resultadoSomaListaDoWhile + lista[contadorDoWhile])
+    resultadoSomaListaDoWhile = resultadoSomaListaDoWhile + lista[contadorDoWhile]
     contadorDoWhile++
 } while (contadorDoWhile < lista.length);
 
