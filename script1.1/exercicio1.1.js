@@ -1,3 +1,5 @@
+console.log("Operadores Aritmeticos")
+
 var num1 = 15;
 var num2 = 5;
 var soma = num1 + num2;
@@ -17,9 +19,3 @@ console.log("Valor da Divisão é : ", divisao);
 console.log("Valor da Soma, somando mais 5 ", soma + 5);
 console.log("Valor com resto da Divisão é : ", divisaoComResto);
 console.log("Vlor da Soma, subtraindo nemos 3 :", soma -3 );
-
-
-
-
-
-
