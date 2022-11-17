@@ -1,3 +1,5 @@
+console.log("Operadores Lógicos")
+
 if ("se caminho 5km e corro 2km, passo o dia bem") {
     "caminho_5km && corro_2km, passo_o_dia_bem"
 }
