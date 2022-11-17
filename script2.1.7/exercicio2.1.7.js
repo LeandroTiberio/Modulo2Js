@@ -1,33 +1,32 @@
+console.log("Aumento salarial");
+console.log("");
 
-function verificarSalarioPrompt() 
-{
-    var salarioCalcular = prompt("Informe o salário base para calculo de reajuste: ");
-    return salarioCalcular;
+function consultaSalario() {
+
+    var valor = parseInt(prompt("Informe seu salário para calculo de reajuste: "));
+    return valor;
 }
-verificarSalarioPrompt();
+consultaSalario();
 
-function reajuste(salarioCalcular) 
-{
 
-    function calcularReajuste(salarioCalcular, porcentagem) 
-    {
-        switch (porcentagem) 
-        {
+function reajuste(salario) {
+
+    function calcularReajuste(salarioCalcular, porcentagem) {
+        switch (porcentagem) {
             case 5:
-                return salarioCalcular = (porcentagem / 100 * salarioCalcular) + salarioCalcular  
+                return salarioCalcular = (salarioCalcular / 100 * porcentagem) + salarioCalcular  
 
             case 10:
-                return salarioCalcular = (porcentagem / 100 * salarioCalcular) + salarioCalcular
+                return salarioCalcular = (salarioCalcular / 100 * porcentagem) + salarioCalcular
 
             case 15:
-                return salarioCalcular = (porcentagem / 100 * salarioCalcular) + salarioCalcular
+                return salarioCalcular = (salarioCalcular / 100 * porcentagem) + salarioCalcular
         
             case 20:
                 return salarioCalcular = (porcentagem / 100 * salarioCalcular) + salarioCalcular
     
         }
     }
-    calcularReajuste(salarioCalcular,porcentagem)
 
     var salarioNovo = (salario > 3000) ? calcularReajuste(salario, 5) 
     : salarioNovo = (salario > 2000) && (salario <= 3000) ? calcularReajuste(salario, 10)
@@ -37,4 +36,4 @@ function reajuste(salarioCalcular)
     return console.log(salarioNovo);
 
 }
-reajuste(salario)
+reajuste(salario);
